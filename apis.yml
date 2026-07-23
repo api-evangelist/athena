@@ -1,7 +1,13 @@
 aid: athena
 name: Athena
-description: Athena is a company surfaced as a portfolio company of khosla-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Athena is an executive assistant service that pairs entrepreneurs, founders,
+  and executives with dedicated, full-time remote executive assistants, along with the
+  recruiting, training, and delegation coaching needed to work with them effectively.
+  Athena screens a large global applicant pool and accepts only a small fraction, then
+  equips its assistants with proprietary in-house AI tooling to maximize productivity
+  across email, scheduling, research, travel, and day-to-day operations. The company is
+  headquartered in San Juan, Puerto Rico and is backed by investors including Khosla
+  Ventures. Athena is a services company with no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/athena/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/6513fda5217cc80d379e2473/6813231eb683c918dae4a4a7_temp_FI_01.png
 tags:
 - Company
+- Executive Assistants
+- Virtual Assistant
+- Staffing
+- Delegation
+- Productivity
+- Remote Work
+- Business Services
+- Outsourcing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.athena.com/
+- type: Pricing
+  url: https://www.athena.com/pricing
+- type: SignUp
+  url: https://www.athena.com/signup-match
+- type: Login
+  url: https://portal.athena.com
+- type: Support
+  url: https://www.athena.com/faqs
+- type: Blog
+  url: https://www.athena.com/blog
+- type: TermsOfService
+  url: https://www.athena.com/terms
+- type: PrivacyPolicy
+  url: https://www.athena.com/privacy
+- type: Compliance
+  url: https://www.athena.com/security
+- type: TrustCenter
+  url: security/athena-trust-center.yml
+- type: DomainSecurity
+  url: security/athena-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
